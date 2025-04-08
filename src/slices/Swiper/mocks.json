@@ -1,0 +1,138 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"swiper_image": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a",
+										"width": 3024,
+										"height": 3778
+									},
+									"url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a?rect=0%2C755%2C3024%2C2268&w=1024&h=768",
+									"width": 1024,
+									"height": 768,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 755
+										},
+										"background": "transparent"
+									},
+									"alt": "women",
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"image",
+								{
+									"__TYPE__": "ImageContent",
+									"provider": "imgix",
+									"url": "https://images.unsplash.com/photo-1517260739337-6799d239ce83?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw1fHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3NDQwNzI2NTB8MA&ixlib=rb-4.0.3&q=85&rect=320,0,5120,3840&w=1024&h=768",
+									"alt": "sliced fruit on white surface",
+									"origin": {
+										"id": "YSA1IRkGAsg",
+										"url": "https://images.unsplash.com/photo-1517260739337-6799d239ce83?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHw1fHxjaXRydXMlMjBmcnVpdHxlbnwwfHx8fDE3NDQwNzI2NTB8MA&ixlib=rb-4.0.3&q=85",
+										"width": 5760,
+										"height": 3840
+									},
+									"width": 1024,
+									"height": 768,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 320,
+											"y": 0
+										}
+									},
+									"thumbnails": {}
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"image",
+								{
+									"__TYPE__": "ImageContent",
+									"provider": "imgix",
+									"url": "https://images.unsplash.com/photo-1613260976142-3e9700b7a6a0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxNnx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzQ0MDcyNjUwfDA&ixlib=rb-4.0.3&q=85&rect=84,0,4792,3594&w=1024&h=768",
+									"alt": "orange fruits on blue ceramic bowl",
+									"origin": {
+										"id": "-QOUBSKHvAM",
+										"url": "https://images.unsplash.com/photo-1613260976142-3e9700b7a6a0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxNnx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzQ0MDcyNjUwfDA&ixlib=rb-4.0.3&q=85",
+										"width": 4960,
+										"height": 3594
+									},
+									"width": 1024,
+									"height": 768,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 84,
+											"y": 0
+										}
+									},
+									"thumbnails": {}
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"image",
+								{
+									"__TYPE__": "ImageContent",
+									"provider": "imgix",
+									"url": "https://images.unsplash.com/photo-1591206369811-4eeb2f03bc95?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyOHx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzQ0MDcyNjUwfDA&ixlib=rb-4.0.3&q=85&rect=192,0,3072,2304&w=1024&h=768",
+									"alt": "sliced orange fruit on brown wooden table",
+									"origin": {
+										"id": "Zx3kcU2Kw9E",
+										"url": "https://images.unsplash.com/photo-1591206369811-4eeb2f03bc95?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwyOHx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzQ0MDcyNjUwfDA&ixlib=rb-4.0.3&q=85",
+										"width": 3456,
+										"height": 2304
+									},
+									"width": 1024,
+									"height": 768,
+									"edit": {
+										"background": "transparent",
+										"zoom": 1,
+										"crop": {
+											"x": 192,
+											"y": 0
+										}
+									},
+									"thumbnails": {}
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

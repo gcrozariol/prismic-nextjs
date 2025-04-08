@@ -6,7 +6,6 @@ import {
   type SliceComponentProps,
   type JSXMapSerializer,
 } from '@prismicio/react'
-import styles from './index.module.css'
 
 const components: JSXMapSerializer = {
   hyperlink: ({ node, children }) => {
@@ -16,6 +15,15 @@ const components: JSXMapSerializer = {
     if (node.data.label === 'codespan') {
       return <code>{children}</code>
     }
+  },
+  heading1: ({ children }) => {
+    return <h1 className="font-extrabold text-3xl">{children}</h1>
+  },
+  heading2: ({ children }) => {
+    return <h1 className="font-bold text-2xl">{children}</h1>
+  },
+  heading3: ({ children }) => {
+    return <h1 className="font-semibold text-xl">{children}</h1>
   },
 }
 
@@ -29,7 +37,7 @@ type RichTextProps = SliceComponentProps<Content.RichTextSlice>
  */
 const RichText: FC<RichTextProps> = ({ slice }) => {
   return (
-    <section className={styles.richtext}>
+    <section>
       <PrismicRichText field={slice.primary.content} components={components} />
     </section>
   )

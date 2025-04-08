@@ -1,0 +1,39 @@
+{
+  "id": "swiper",
+  "type": "SharedSlice",
+  "name": "Swiper",
+  "description": "Swiper",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "swiper_image": {
+          "type": "Group",
+          "config": {
+            "label": "Swiper Image",
+            "repeat": true,
+            "fields": {
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "constraint": {
+                    "width": 1024,
+                    "height": 768
+                  },
+                  "thumbnails": []
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

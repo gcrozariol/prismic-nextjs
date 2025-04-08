@@ -15,7 +15,6 @@ export type ButtonProps = SliceComponentProps<Content.ButtonSlice>
 const Button: FC<ButtonProps> = ({ slice }) => {
   return (
     <ShadcnButton
-      className="bg-amber-500 p-10"
       asChild
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
